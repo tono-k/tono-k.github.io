@@ -8,10 +8,11 @@
 <body>
 <div> 
     <p></p>
-    <div class="container">
-        <div class="blog-post1">
-            <h1>Super Health App</h1>
-            <p class="date">Published on: February 21, 2025 <br> <br>Written by Anthony El-Khoury </p>
+    <div class="blog">
+        <h1 style="margin-left: 75px;">Super Health App</h1>
+        <p class="date"> Published on February 21, 2025 <br> Written by Anthony El-Khoury </p>
+        <div class="part1">
+            <h2> ABSTRACT </h2>
             <div class="report">
                 Health is undoubtedly the most important aspect of your life. 
                 Taking proactive steps by monitoring your physical and mental health 
@@ -19,114 +20,133 @@
                 people get sick and need to visit doctors and take medication. 
                 This unfortunate reality has been reminded to us in recent years 
                 with the pandemic. Managing and monitoring your health is indeed a 
-                difficult task and requires a lot of time and effort. In fact, 
-                this is precisely what the following blog discusses: it details 
-                the difficulty of monitoring your health, describes the current 
-                software solutions and proposes a new user experience for a super health application.    
+                difficult task and requires a lot of time and effort. In fact, this 
+                is precisely what the following blog discusses: it details the difficulty 
+                of monitoring your health, describes the current software solutions and 
+                proposes a new user experience for a super health application.      
             </div> <br><br><br>
-            <h2> User Research </h2> <br>
+            <h2> USER RESEARCH </h2>
             <div class="report"> 
                 To understand patient needs, it is imperative to do research and to conduct a survey. 
                 The most optimal way of doing so would be to partner with medical clinics and 
-                hospitals directly. The idea would be for them to ask their patients to fill in 
-                a questionnaire while they wait to be called in. This would directly target 
-                the potential consumers of the proposed mobile application. This is highly 
-                effective and constructive. Another way I would go about researching the users 
-                would be to host a survey on Google forms and to send it to my friends and my 
-                family. However, this method isn’t as effective as the previously mentioned 
-                one. I’ve come up with a few questions for the questionnaire. Since the topic 
+                hospitals directly. The idea would be for them to ask the patients waiting to be 
+                called in to fill in a questionnaire. This would directly target the potential 
+                consumers of the proposed mobile application. This is highly effective and 
+                constructive. <br> <br> Another way I would go about researching the users would be to 
+                host a survey on Google forms and to send it to my friends and my family. 
+                However, this method isn’t as effective as the previously mentioned one. 
+                I’ve come up with a few questions for the questionnaire. Since the topic 
                 discusses medical issues, I would firstly remind them that the survey is 
-                completely anonymous. I would then proceed with the following questions.
+                completely anonymous. I would then proceed with the following simple yet effective questions.
             </div>
             <div class="report"> 
                 <ul style="font-size: smaller;">
-                    <li>What is your age range? (MCQ) <br>Below 18 <br> 18 to 50 <br> Above 50 <br> <br> </li>
-                    <li> Do you take medication on a semi regular basis? (MCQ) <br>Yes <br> No </li> <br>
-                    <li>How often do you forget to take your medication? (MCQ)<br> Never<br> Sometimes<br> Often <br> Always</li><br>
-                    <li>How do you track the medication you take? (Short answer)<br>Enter Answer …<br></li> <br>
-                    <li>Do you think it's effective? (MCQ)<br>Yes <br> No</li> <br>
-                    <li>Do you frequently have doctor appointments? (MCQ)<br>Yes <br> No</li></li> <br>
-                    <li>How do you currently book appointments? (Short answer)<br>Enter Answer …</li><br>
-                    <li>Do you think it's effective? (MCQ)<br>Yes <br> No</li> <br>
-                    <li>Do you think there should be an easier way to communicate with your doctor? (Long answer) <br> Enter Answer … </li> </ul>
-                The first question is asked in order to assess the primary group age targeted by the application. 
-                The other questions are asked in order to determine the current software solutions patients 
-                use and to see whether they think it is effective or not. Note that ideally, I would send 
-                this survey and get some feedback. Due to my time constraint, I did some research on the current situation.
+                    <li>What is your age range? (MCQ) <br> Below 18 <br> 18 to 50 <br> Above 50  <br> </li> <br>
+                    <li> Do you take medication on a regular basis? (MCQ) <br> Yes <br> No  </li> <br>
+                    <li> How often do you forget to take your medication? (MCQ)<br> Never<br> Sometimes<br> Often <br> Always</li><br>
+                    <li> How do you track the medication you take? (Short answer)<br>Enter Answer …<br></li> <br>
+                    <li> Do you think it's effective? (MCQ)<br>Yes <br> No</li> <br>
+                    <li> Do you frequently have doctor appointments? (MCQ)<br>Yes <br> No</li></li> <br>
+                    <li> How do you currently book appointments? (Short answer)<br>Enter Answer …</li><br>
+                    <li> Do you think it's effective? (MCQ)<br>Yes <br> No</li> <br>
+                    <li> Do you think there should be an easier way to communicate with your doctor? (Long answer) <br> Enter Answer … </li> </ul>
+                    The first question is asked in order to assess the primary group age targeted 
+                    by the application. The other questions are asked in order to determine the 
+                    current software solutions patients use and to see whether they think it is 
+                    effective or not. Note that ideally, I would send this survey and get some feedback. 
+                    Due to my time constraint, I did some research on the current situation.
             </div> <br><br><br>
-            <h2> Current Solutions </h2> <br>
-            <div class="report"> Maintaining your health is extremely difficult and takes a lot of commitment. 
-                This is the main problem various software applications try to solve. 
-                Many mobile reminder applications exist and have notifications and reminders 
-                to take medication. They have demonstrated their usefulness in many experiments. 
-                For example, a study was conducted that reveals, with 95% confidence, that 
-                patients who used a tracking application were more likely to adhere to their 
-                medication than those who didn’t [1]. Other studies such as [2] arrive at the 
-                same conclusion. For appointment reservations in Quebec, RVSQ, and ClicSante 
-                are frequently used; they allow patients to book consultations with doctors [3]. 
-                These applications fulfill their goal; however, they don’t consider the frequent 
-                unavailability of free appointments which has become a serious issue over the years 
-                and has led to an overall negative experience [3]. This issue is becoming worse and 
-                these applications are not designed to tackle this issue which stems from having a 
-                free health care system. It could be beneficial for patients to have a quicker and 
-                more efficient way of communicating with doctors. 
-            </div> <br><br><br>
-            <h2> Problem statement </h2><br>
+            <h2> PROBLEM STATEMENT & CURRENT SOLUTIONS </h2>
             <div class="report">
-                The difficulty of managing your health is the main issue being targeted. 
-                Keeping up with your medication can be very challenging. Additionally, 
-                there is a problem with the public health care system that makes securing 
-                an appointment reservation difficult; current software does not take that 
-                into account and patients could benefit from a quicker way to communicate 
-                with a doctor. In a nutshell, there is a need for an application that 
-                centralises many features that make it easier for patients to track their health. 
+                Maintaining your health is extremely difficult and takes a lot of commitment. 
+                This is the main problem various software applications try to solve. Many mobile 
+                reminder applications exist and have notifications and reminders to take medication. 
+                They have demonstrated their usefulness in many experiments. For example, a study 
+                was conducted that reveals, with 95% confidence, that patients who used a tracking 
+                application were more likely to adhere to their medication than those who didn’t [1]. 
+                Other studies such as [2] arrive at the same conclusion. For appointment reservations 
+                in Quebec, RVSQ, and ClicSante are frequently used; they allow patients to book 
+                consultations with doctors [3]. These applications fulfill their goal; however, they 
+                don’t consider the frequent unavailability of free appointments which has become a 
+                serious issue over the years and has led to an overall negative experience [3]. This 
+                issue is becoming worse and these applications are not designed to tackle this issue 
+                which stems from having a free health care system. It could be beneficial for patients 
+                to have a quicker and more efficient way of communicating with doctors. There is truly 
+                a need for an application that centralises many features that make it easier for patients to track their health. 
             </div>
         </div>               
     </div> <br>
 
-    <h1> PERSONAS </h1>
-    <img style="text-align: center;display: block; margin: 0 auto; border-radius: 10px; width: 900px;" src="./assets/Persona1.png"> <br> <br>
-    <img style="text-align: center;display: block; margin: 0 auto; border-radius: 10px; width: 900px;" src="./assets/Persona2.png"> <br> <br>
-    <img style="text-align: center;display: block; margin: 0 auto; border-radius: 10px; width: 900px;" src="./assets/Persona3.png"> <br> <br>
+    <h1> PERSONAS </h1> <br> <br>
+    <a href="https://www.pinterest.com/pin/260645897154383383/"> <img style="text-align: center;display: block; margin: 0 auto; border-radius: 10px; width: 900px;" src="./assets/Persona1.png"> <br> </a>
+    <a href="https://unsplash.com/s/photos/middle-aged-man"> <img style="text-align: center;display: block; margin: 0 auto; border-radius: 10px; width: 900px;" src="./assets/Persona2.png"> <br> </a>
+    <a href="https://momblogsociety.com/natural-vitamins-can-provide-important-benefits-patients/middle-aged-doctor-working-on-computer/"> <img style="text-align: center;display: block; margin: 0 auto; border-radius: 10px; width: 900px;" src="./assets/Persona3.png"> </a><br> <br> <br> 
 
     <h1> JOSEPH'S JOURNEY </h1> <br> <br>
     <img style="text-align: center;display: block; margin: 0 auto; border-radius: 5px; width: 800px;" src="./assets/Journey.png"> <br> <br>
-
+    <div style="text-align: center; color: rgb(114, 137, 255);"> TEMPLATE - https://www.figma.com/community/file/1167700722702284382 </div> <br> <br> <br>
+    
     <h1> WIREFRAMES </h1> <br> <br>
+    <img style="text-align: center;border-radius: 5px;display: block; margin: 0 auto; width: 500px; box-shadow: 500px;" src="./assets/wireframe.jpg"> <br><br><br> 
+
     <h1> PROTOTYPE </h1> <br> <br>
+    <div style="align-items: center; gap: 10px;"> 
+        <div style="text-align: center; display: inline-block;"> <h3> MED REMINDER </h3>
+        <img src="https://imgur.com/Y2YrJF9.gif" height="500" width="250">
+        </div>
+        <div style="text-align: center; display: inline-block;"> <h3> BOOKINGS APPOINTMENTS </h3>
+        <img src="https://imgur.com/DdfN782.gif" height="500" width="250">
+        </div>
+        <div style="text-align: center;display: inline-block;"> <h3> MESSAGE DOCTOR  </h3>
+        <img src="https://imgur.com/nQry3Od.gif" height="500" width="250">
+        </div>
+        <div style="text-align: center;display: inline-block;"> <h3> MANAGE REMINDERS </h3>
+        <img src="https://imgur.com/sRy6y18.gif" height="500" width="250">
+        </div>
+        <div style="text-align: center;display: inline-block;"> <h3> MANAGE APPOINTMENTS </h3>
+        <img src="https://imgur.com/wj120q1.gif" height="500" width="250">
+        </div>
+    </div>
         
     <br> <br> <br>
-    <div class="container">
-        <div class="blog-post2">
-            <h2> Usability Testing </h2> <br>
-            <p> TODO </p>
+    <div class="blog">
+        <div class="part2">
+            <h2> USABILITY TESTING </h2>
+            <div class="report">
+                I would make a few people that I know use the prototype. 
+                I would then ask them to answer two main questions in a written format: 
+                they would need to detail their experience using the application. 
+                They would express their opinions on what they think is effective 
+                in the design and in the user experience and what they think could 
+                be improved. I asked a few friends for their opinion on my prototype. 
+                They suggested a few changes such as making a vertical line in the 
+                "create reminder" and "schedule meeting" buttons in order to improve the user experience.
+            </div>
             <br><br><br>
-            <h2> Reflection </h2> <br>
+            <h2> REFLECTION </h2>
             <div class="report">
                 My proposed application fulfills the needs of patients. 
-                The medication reminder feature is present and efficient. 
-                You can set the reminder as done and you can track your progress 
-                by clicking on view your history. Furthermore, similarly to current 
-                solutions, it is possible to schedule an appointment with a doctor 
-                at a specific location. You additionally have the option to send doctors 
-                a message which gives them the opportunity to answer your questions on 
-                your symptoms and medication. This facilitates the communication between 
-                patients and their doctors and is my attempt at solving the problem.
-                The suggested design for the application reflects on a lot of good design principles. 
-                First, the two main functionalities are clearly shown to the user with the large white
-                buttons, which makes the application easy to use. Furthermore, it provides 
-                good feedback and informs you what you can do. For example, when creating a 
-                new reminder, the create button is greyed out until the patient fills all the 
-                necessary information. The blue color scheme is reminiscent of doctors and their 
-                apparel; it gives patients reassurance and reminds them of the goal of this 
-                application. Moreover, it has been designed with accessibility in mind. The 
-                contrasting colors demonstrated in the mockups are certainly helpful for people 
-                with visual limitations to differentiate the different buttons and features. 
+                The medication reminder feature is present and efficient. You can set 
+                the reminder as "done" and you can track your progress by clicking on "view your history". 
+                Furthermore, similarly to current solutions, it is possible to schedule an appointment 
+                with a doctor at a specific location. You additionally have the option to send doctors a 
+                message which gives them the opportunity to answer your questions on your symptoms and 
+                medication. This facilitates the communication between patients and their doctors and is my attempt at solving the problem.
+                The suggested application shows that effective user-centric design principles were applied. 
+                First, the two main functionalities are clearly shown to the user with the large white buttons, 
+                making it easy to use the application. Furthermore, it provides good feedback and informs you 
+                what you can and can’t do. For example, when creating a new reminder, the "create" button is 
+                greyed out until the patient fills all the necessary information. The metal blue color is 
+                reminiscent of doctors and their apparel; it gives patients reassurance and reminds them of 
+                the goal of this application. Moreover, it has been designed with accessibility in mind. The 
+                contrasting colors demonstrated in the mockups are certainly helpful for people with visual 
+                limitations to differentiate the different buttons and features. 
+
             </div> <br><br><br>
-            <h2> References </h2> <br>
+            <h2> REFERENCES </h2> <br>
             <div class="report"> 
-                [1] K. Santo et al., ‘Medication reminder applications to improve adherence in coronary heart disease: a randomised clinical trial’, Heart, vol. 105, no. 4, pp. 323–329, Feb. 2019, doi: 10.1136/heartjnl-2018-313479. https://pubmed.ncbi.nlm.nih.gov/30150326/ <br><br>
-                [2] T. L. Hayes et al., ‘A Study of Medication-Taking and Unobtrusive, Intelligent Reminding’, Telemed J E Health, vol. 15, no. 8, pp. 770–776, Oct. 2009, doi: 10.1089/tmj.2009.0033. https://pmc.ncbi.nlm.nih.gov/articles/PMC2998278/ <br><br>
+                [1] K. Santo et al., ‘Medication reminder applications to improve adherence in coronary heart disease: a randomised clinical trial’, Heart, vol. 105, no. 4, pp. 323–329, Feb. 2019, doi: 10.1136/heartjnl-2018-313479. Available: https://pubmed.ncbi.nlm.nih.gov/30150326/<br><br>
+                [2] T. L. Hayes et al., ‘A Study of Medication-Taking and Unobtrusive, Intelligent Reminding’, Telemed J E Health, vol. 15, no. 8, pp. 770–776, Oct. 2009, doi: 10.1089/tmj.2009.0033. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC2998278/ <br><br>
                 [3] C.-É. Blais-Poulin and J.-H. Roy, ‘Dossier: Clic Santé | Par ici le privé (4 articles)’, La Presse, Dec. 10, 2024. Accessed: Feb. 20, 2025. [Online]. Available: https://www.lapresse.ca/actualites/sante/clic-sante/par-ici-le-prive/2024-12-10/rvsq-et-bonjour-sante/autres-plateformes-autres-problemes.php <br><br>
             </div>
         </div>
